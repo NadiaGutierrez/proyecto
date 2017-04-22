@@ -1,0 +1,31 @@
+label {
+font-family:sans-serif;
+font-size: 1em;
+
+}
+
+#legend {
+text-align:center;
+font-weight:bold;
+font-size:18pt;
+color:#B4045F;
+text-shadow: 0px 0px 10px #BA55D3;
+}
+ 
+#fieldset {
+border:6px groove #ccc; /* Borde */
+background:#F8ECE0; /* Color de fondo */
+color:#000; /* Color del texto de todo el contenido */
+width:500px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+}
+
+div {
+  margin: .em 0;
+}
+div label {
+  width: 30%;
+  float: left;
+}
+

@@ -1,0 +1,54 @@
+/* CSS Document */
+
+*{
+   /* border:1px dotted orange;*/
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+	background-color: #900;
+	color: #FFF;
+	float: none;
+	text-align: left;
+	font-style: oblique;
+	padding-bottom:20px;
+}
+h1
+{
+	text-align:center;
+	font-size: 50px;
+
+}
+#leftMenu{
+	background-color:#900;
+	float: left;
+	width:50%
+	margin-bottom:-550px;
+	padding-bottom:210px;
+	font-size:32px;
+	font-style:italic;
+	color:#FFF
+
+}
+
+#content
+{
+	background-color: #FFF;
+	float: left;
+	width:83%;
+	text-align: center;
+	margin-bottom: -550px;
+	padding-bottom: 50px;
+	font-size: 18px;
+	
+}
+#footer
+{
+	background-color:#900;
+	float:none;
+	clear:both;
+	color:#FFF
+	}
+	
+

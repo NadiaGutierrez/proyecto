@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Inicio de Sesion</title>
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="estilofor.css">
+</head>
+<body>
+<div id="header">
+<h1>
+<br>
+Farmacia Pastoral de la Salud </h1>
+</div>
+<br>
+<form action="sesion.php" method="post"> 
+    <fieldset id="fieldset">
+  <legend id="legend"><h2>Inicio de Sesion</h2></legend>
+      <!-- label+input+br-->
+      <div class="contenedor">
+       <label for="nombre">Nombre</label>
+       <input type="text" id="nombre" name="nombre" size="15" maxlength="13" required>
+       </div>
+       <br>
+       <div class="contenedor">
+       <label for="contra">Contraseña</label>
+       <input type="password" id="contra" name="contra"  size="15" maxlength="8" required>
+       </div>
+       <br>
+       <br>
+       <div class="contenedor">
+       <input type="submit" id="btn"  value="Entrar......">
+       </div>
+       </fieldset>
+    </form>
+    <footer id="pie">
+       <address>Pastoral de la Salud</address>
+   </footer>
+</body>
+</html>

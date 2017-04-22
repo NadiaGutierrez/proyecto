@@ -1,0 +1,23 @@
+
+label {
+font-family:fantasy;
+font-size: 1em;
+display: block;
+margin: .1em 0 0 0;;
+
+}
+
+#legend {
+    text-align: center;
+    
+}
+
+div.contenedor 
+{ 
+    text-align:center; 
+} 
+
+#fieldset{
+margin:8%;
+padding:3%;
+}

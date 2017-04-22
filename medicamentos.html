@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medicamentos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estiloformu.css">
+</head>
+    <body>
+    <div id="header">
+<h1>
+<br>
+ Farmacia Pastoral de la Salud </h1>
+</div>
+<div id="leftMenu">
+ <table width="200" height="279" border="2" bordercolor="#000000">
+  <tr>
+    <td><a href="">Inicio</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Contacto</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Informacion</a></td>
+  </tr>
+  <tr>
+    <td><a href="">Servicios</a></td>
+  </tr>
+  <tr>
+    <td><a href="inicio.html" id="referencia">Salir</a></td>
+  </tr>
+</table>
+</div>
+       <form method="post" action="" id="form">
+        <fieldset id="fieldset">
+        <legend id="legend"><h2>Nuevo Medicamento</h2></legend>
+        <div class="contenedor">
+        <label for="clave">CLAVE</label>
+        <input type="text" name="clave" id="clave" required>
+         </div>
+       <br>
+       <div class="contenedor">
+        <label for="nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="nombre" required>
+       </div>
+      <br>
+       <div class="contenedor">
+        <label for="formula">FORMULA</label>
+        <input type="text" name="formula" id="formula" required>
+       </div>
+      <br>
+       <div class="contenedor">
+        <label for="observa">OBSERVACIONES</label>
+        <!--select#estados>(opt[value=$]{Opcion$})*4-->
+       <select name="Seleccion" id="estados">
+           <option value="1">Solucion</option>
+           <option value="2">Tabletas</option>
+           <option value="3">Opcion3</option>
+           <option value="4">Opcion4</option>
+       </select>
+       </div>
+      <br>
+      <div class="contenedor">
+      <label for="fecha">FECHA DE CADUCIDAD</label>
+       <input type="date" required>
+       </div>
+      <br>
+       <div class="contenedor">
+        <label for="cantidad">CANTIDAD</label>
+        <input type="number" name="cantidades" id="cant" required>
+       </div>
+       <br>
+       <div class="contenedor">
+        <label for="costo">COSTO REAL</label>
+        <input type="number" name="costo" id="costo" required>
+         </div>
+        <br>
+        <div class="contenedor">
+       <input type="submit" id="btn_guardar" value="Guardar Medicamento...">
+       <input type="reset" id="btn_limpiar" value="Limpiar Campos!!!">
+         </div>
+        </fieldset>
+    </form>
+    </body>
+</html>
